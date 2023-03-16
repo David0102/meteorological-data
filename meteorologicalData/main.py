@@ -226,7 +226,6 @@ class MD():
 
     """
 
-
     def __init__(self, cidade, tipo):
         self._cidade = cidade
         self._tipo = tipo
