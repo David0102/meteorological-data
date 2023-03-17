@@ -3,7 +3,7 @@
 
 ### Atraves desse pacote, o usuario podera visualizar os dados meteorologicos e a localizacao exata de uma determinada cidade.
 
-### Exemplo de saída, caso o usuário queira visualizar os dados.
+### Exemplo de saída, caso o usuário queira visualizar os dados:
 <img src="img.png" alt="Dados meteorológicos">
 
 ## Instalacao
