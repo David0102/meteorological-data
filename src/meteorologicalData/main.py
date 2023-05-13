@@ -2,7 +2,10 @@ import requests
 import folium
 import webbrowser
 from PyQt5 import QtCore, QtGui, QtWidgets
-import sys
+import sys, os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Ui_MainWindow(object):
     """
@@ -231,7 +234,7 @@ class MD():
         self._tipo = tipo
 
     def retorna_dados(self):
-        API_KEY = "aed9ff8e44c7dd4601968e82a30b1aec"
+        API_KEY = os.environ['chave_api']
         link = f"https://api.openweathermap.org/data/2.5/weather?q={self._cidade}&appid={API_KEY}&lang=pt_br&units=metric"
         requisicao = requests.get(link)
 
