@@ -1,4 +1,4 @@
-# meteorologicalData
+# meteorological-data
 ==============================
 
 ### Atraves desse pacote, o usuario podera visualizar os dados meteorologicos e a localizacao exata de uma determinada cidade.
